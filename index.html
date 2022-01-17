@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Reservation</title>
+  </head>
+  <body>
+    <div class="cover">
+    <div class="movie-container">
+      <label>Select a time slot:</label>
+      <select id="movie">
+        <option value="150">Toy Story-8a.m.(₹150)</option>
+        <option value="180">Toy Story-2p.m.(₹180)</option>
+        <option value="200">Toy Story-5p.m. (₹200)</option>
+        <option value="250">Toy Story-8p.m.(₹250)</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Available</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="screen">TOY STORY Première</div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat occupied"></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat occupied"></div>
+        <div class="seat "></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat "></div>
+        <div class="seat occupied"></div>
+        <div class="seat "></div>
+        <div class="seat occupied"></div>
+        <div class="seat "></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat  occupied"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat  occupied"></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat "></div>
+        <div class="seat "></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat "></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+      </div>
+    </div>
+
+    <p class="text">
+      You have selected <span id="count">0</span> seats for a price of ₹<span
+        id="total"
+        >0</span
+      >
+    </p>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
