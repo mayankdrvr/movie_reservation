@@ -18,6 +18,7 @@ This is a movie seat booking project with price calculation using browser local 
 
 The full report can be accessed at https://drive.google.com/file/d/19-b5x_gjW9sJvX-KBO3_JvmMEPcbOvBn/view?usp=sharing
 
+![movie-seat-reservation](https://user-images.githubusercontent.com/87348490/149883684-c00e5898-d260-42ec-bf86-43fdb60a74ff.png)
 
 ## Lessons Learned
 - Using browser local cache storage.
