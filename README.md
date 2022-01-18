@@ -1,7 +1,7 @@
 
 # Movie Reservation
 
-This is a movie seat booking with price calculation project using browser local storage. You can select the available seats for watching a movie and get the total price to be paid. This project is deployed live at https://movie-seat-reservation.netlify.app/
+This is a movie seat booking project with price calculation using browser local storage. You can select the available seats for watching a movie and get the total price to be paid. This project is deployed live at https://movie-seat-reservation.netlify.app/
 
 ## Demo
 
