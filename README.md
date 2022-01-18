@@ -6,6 +6,8 @@ This is a movie seat booking project with price calculation using browser local 
 ## Demo
 
 ![movie-reservation(2)](https://user-images.githubusercontent.com/87348490/149883593-2d863ce4-b72e-4156-b409-7cb9e7785206.gif)
+![movie-seat-reservation](https://user-images.githubusercontent.com/87348490/149883684-c00e5898-d260-42ec-bf86-43fdb60a74ff.png)
+
 
 ## Technologies Used
 
